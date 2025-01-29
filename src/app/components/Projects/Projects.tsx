@@ -1,3 +1,5 @@
+'use client';
+
 import cn from "./Projects.module.scss";
 
 export const Projects = () => {

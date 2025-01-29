@@ -1,3 +1,5 @@
+'use client';
+
 import cn from "./Header.module.scss";
 import avatar from "@img/clone.jpg";
 import Image from "next/image";

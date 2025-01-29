@@ -1,5 +1,5 @@
 @use "@styles/variables" as *;
-@use "@styles/icons" as *;
+//@import "@styles/icons";
 
 .header {
   height: 100vh;
@@ -25,7 +25,7 @@
 }
 
 .subtitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: $primary;
   font-size: 22px;
   margin: 0;
@@ -37,7 +37,7 @@
   border-radius: 16px;
 }
 
-.contract{
+.contract {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,14 +45,25 @@
   width: 180px;
   height: 40px;
   border-radius: 16px;
-  background-color: #D3E97A;
+  background-color: #d3e97a;
   text-decoration: none;
   font-size: 18px;
 }
 
-.github{
-  //@include icon('@assets/social-media-github.svg');
+//@mixin mask($url) {
+//  mask: url($url) no-repeat center / contain;
+//}
+//
+//@mixin icon($url) {
+//  @include mask($url);
+//  display: inline-block;
+//  width: 16px;
+//  height: 16px;
+//  background-color: white;
+//}
 
-  //width: 20px ;
-  //height: 20px;
+.github {
+  //@include icon('../../../../public/github.svg');
+  width: 20px ;
+  height: 20px;
 }
