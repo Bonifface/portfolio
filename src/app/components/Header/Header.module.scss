@@ -1,5 +1,5 @@
 @use "@styles/variables" as *;
-@import "@styles/icons";
+//@import "@styles/icons";
 
 .header {
   height: 100vh;
@@ -64,8 +64,6 @@
 
 .github {
   //@include icon('../../../../public/github.svg');
-  background-color: $primary;
-  //background-image: url("../../../../public/github.svg");
   width: 20px ;
   height: 20px;
 }
